@@ -1,2 +1,1 @@
-# Layer 1 - Classic Problems
-
+This report provides the introduction to Operating Systems, where it focuses on the core concepts such as Process Management, Memory Management, CPU Scheduling, and Classic Synchronization Problems. These specific topics are divided into four sections, each explaining the concept, how to calculate certain given problems, identifying solutions to famous problems, and their importance in operating system functionality.
