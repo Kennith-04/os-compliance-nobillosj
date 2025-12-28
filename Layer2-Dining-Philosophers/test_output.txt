@@ -1,0 +1,77 @@
+kennith@DESKTOP-VJAVG40:~$ gcc dining_philosophers.c -o dining -pthread
+kennith@DESKTOP-VJAVG40:~$ ./dining
+Philosopher 0 is thinking...
+Philosopher 1 is thinking...
+Philosopher 2 is thinking...
+Philosopher 3 is thinking...
+Philosopher 4 is thinking...
+Philosopher 2 is waiting for fork 2
+Philosopher 2 is waiting for fork 3
+Philosopher 2 is EATING
+Philosopher 0 is waiting for fork 0
+Philosopher 0 is waiting for fork 1
+Philosopher 0 is EATING
+Philosopher 1 is waiting for fork 1
+Philosopher 4 is waiting for fork 0
+Philosopher 3 is waiting for fork 3
+Philosopher 0 finished eating round 1.
+Philosopher 0 is thinking...
+Philosopher 2 finished eating round 1.
+Philosopher 2 is thinking...
+Philosopher 1 is waiting for fork 2
+Philosopher 1 is EATING
+Philosopher 4 is waiting for fork 4
+Philosopher 4 is EATING
+Philosopher 3 is waiting for fork 4
+Philosopher 1 finished eating round 1.
+Philosopher 1 is thinking...
+Philosopher 2 is waiting for fork 2
+Philosopher 2 is waiting for fork 3
+Philosopher 0 is waiting for fork 0
+Philosopher 4 finished eating round 1.
+Philosopher 4 is thinking...
+Philosopher 3 is EATING
+Philosopher 0 is waiting for fork 1
+Philosopher 0 is EATING
+Philosopher 1 is waiting for fork 1
+Philosopher 3 finished eating round 1.
+Philosopher 2 is EATING
+Philosopher 4 is waiting for fork 0
+Philosopher 4 is waiting for fork 4
+Philosopher 4 is EATING
+Philosopher 3 is thinking...
+Philosopher 1 is waiting for fork 2
+Philosopher 0 finished eating round 2.
+Philosopher 0 is thinking...
+Philosopher 3 is waiting for fork 3
+Philosopher 3 is waiting for fork 4
+Philosopher 3 is EATING
+Philosopher 2 finished eating round 2.
+Philosopher 2 is thinking...
+Philosopher 0 is waiting for fork 0
+Philosopher 0 is waiting for fork 1
+Philosopher 4 finished eating round 2.
+Philosopher 4 is thinking...
+Philosopher 1 is EATING
+Philosopher 3 finished eating round 2.
+Philosopher 3 is thinking...
+Philosopher 2 is waiting for fork 2
+Philosopher 4 is waiting for fork 0
+Philosopher 1 finished eating round 2.
+Philosopher 1 is thinking...
+Philosopher 0 is EATING
+Philosopher 2 is waiting for fork 3
+Philosopher 2 is EATING
+Philosopher 3 is waiting for fork 3
+Philosopher 1 is waiting for fork 1
+Philosopher 2 finished eating round 3.
+Philosopher 3 is waiting for fork 4
+Philosopher 3 is EATING
+Philosopher 1 is waiting for fork 2
+Philosopher 1 is EATING
+Philosopher 0 finished eating round 3.
+Philosopher 4 is waiting for fork 4
+Philosopher 1 finished eating round 3.
+Philosopher 3 finished eating round 3.
+Philosopher 4 is EATING
+Philosopher 4 finished eating round 3.
